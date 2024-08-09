@@ -20,9 +20,9 @@ body {
 .wrapper {
     width: 420px;
     background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
 
-    color: #000000;
+    color: #ffffff;
     border-radius: 12px;
     padding: 30px 40px;
 }
@@ -45,15 +45,16 @@ body {
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 40px;
     font-size: 16px;
-    color: #0b0000;
+    color: #000000;
     padding: 20px 45px 20px 20px;
 }
 
+
 .input-box input::placeholder {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .input-box i {
@@ -77,7 +78,7 @@ body {
 }
 
 .remember-forgot a {
-    color: #000000;
+    color: #fffefe;
     text-decoration: none;
 }
 
@@ -97,6 +98,12 @@ body {
     font-size: 16px;
     color: #fefbfb;
     font-weight: 600;
+    transition: 0.5s;
+}
+
+.wrapper .btn:hover{
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
 }
 
 .wrapper .register-link {
@@ -106,7 +113,7 @@ body {
 }
 
 .register-link p a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
 }
